@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B6A069A20B4A45700E23599 /* EateryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A069920B4A45700E23599 /* EateryDetailViewController.swift */; };
+		5B6A069C20B4A9EB00E23599 /* ScaleSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A069B20B4A9EB00E23599 /* ScaleSegue.swift */; };
 		5BC8EED720A6A7D700755F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC8EED620A6A7D700755F25 /* AppDelegate.swift */; };
 		5BC8EEDC20A6A7D700755F25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8EEDA20A6A7D700755F25 /* Main.storyboard */; };
 		5BC8EEDE20A6A7D800755F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC8EEDD20A6A7D800755F25 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B6A069920B4A45700E23599 /* EateryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EateryDetailViewController.swift; sourceTree = "<group>"; };
+		5B6A069B20B4A9EB00E23599 /* ScaleSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSegue.swift; sourceTree = "<group>"; };
 		5BC8EED320A6A7D700755F25 /* Eateries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eateries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC8EED620A6A7D700755F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BC8EEDB20A6A7D700755F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 				5BC8EED620A6A7D700755F25 /* AppDelegate.swift */,
 				5BC8EEDA20A6A7D700755F25 /* Main.storyboard */,
 				5BC8EEEA20A6C2E500755F25 /* EateriesTableViewCell.swift */,
+				5B6A069B20B4A9EB00E23599 /* ScaleSegue.swift */,
 				5BC8EEE820A6A8A200755F25 /* EateriesTableViewController.swift */,
+				5B6A069920B4A45700E23599 /* EateryDetailViewController.swift */,
 				5BC8EEDD20A6A7D800755F25 /* Assets.xcassets */,
 				5BC8EEDF20A6A7D800755F25 /* LaunchScreen.storyboard */,
 				5BC8EEE220A6A7D800755F25 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6A069C20B4A9EB00E23599 /* ScaleSegue.swift in Sources */,
 				5BC8EED720A6A7D700755F25 /* AppDelegate.swift in Sources */,
 				5BC8EEE920A6A8A200755F25 /* EateriesTableViewController.swift in Sources */,
+				5B6A069A20B4A45700E23599 /* EateryDetailViewController.swift in Sources */,
 				5BC8EEEB20A6C2E500755F25 /* EateriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
